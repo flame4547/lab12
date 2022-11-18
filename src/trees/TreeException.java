@@ -1,6 +1,8 @@
 package trees;
 
-public class TreeException extends FamilyTree
+import java.io.IOException;
+
+public class TreeException extends Throwable
 {
 	public TreeException(String s)
 	{
